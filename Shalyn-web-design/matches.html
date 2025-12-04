@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matches - SLFA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <img src="images/slfa-logo.png" alt="SLFA Logo" class="logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+            <div class="logo-fallback" style="display:none">
+                <i class="fas fa-futbol"></i>
+                <span>SLFA</span>
+            </div>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="players.html"><i class="fas fa-users"></i> Players</a></li>
+            <li><a href="matches.html" class="active"><i class="fas fa-trophy"></i> Matches</a></li>
+            <li><a href="about.html"><i class="fas fa-info-circle"></i> About Us</a></li>
+            <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+        <div class="mobile-menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container page-content">
+        <h1 class="page-title">Matches</h1>
+
+        <!-- Upcoming Matches Section -->
+        <section class="match-category">
+            <h2><i class="fas fa-calendar-alt"></i> UPCOMING MATCHES</h2>
+            <div class="upcoming-matches">
+                <div class="match-fixture">
+                    <div class="match-date-info">
+                        <div class="match-date">March 20, 2025</div>
+                        <div class="match-time">15:00</div>
+                        <div class="match-venue">National Stadium, Freetown</div>
+                    </div>
+                    <div class="match-teams">
+                        <div class="team home-team">
+                            <img src="images/teams/bo-rangers.png" alt="Bo Rangers" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                            <div class="team-placeholder" style="display:none">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <span class="team-name">Bo Rangers</span>
+                        </div>
+                        <div class="vs-section">
+                            <span class="vs">VS</span>
+                        </div>
+                        <div class="team away-team">
+                            <img src="images/teams/east-end-lions.png" alt="East End Lions" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                            <div class="team-placeholder" style="display:none">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <span class="team-name">East End Lions</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="match-fixture">
+                    <div class="match-date-info">
+                        <div class="match-date">March 25, 2025</div>
+                        <div class="match-time">17:00</div>
+                        <div class="match-venue">Bo Stadium, Bo</div>
+                    </div>
+                    <div class="match-teams">
+                        <div class="team home-team">
+                            <img src="images/teams/johansen.png" alt="Johansen" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                            <div class="team-placeholder" style="display:none">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <span class="team-name">Johansen</span>
+                        </div>
+                        <div class="vs-section">
+                            <span class="vs">VS</span>
+                        </div>
+                        <div class="team away-team">
+                            <img src="images/teams/bo-rangers.png" alt="Bo Rangers" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                            <div class="team-placeholder" style="display:none">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <span class="team-name">Bo Rangers</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Match Results Section -->
+        <section class="match-category">
+            <h2><i class="fas fa-trophy"></i> RECENT RESULTS</h2>
+            <div class="match-results">
+                <div class="match-result">
+                    <div class="match-date-info">
+                        <div class="match-date">March 10, 2025</div>
+                        <div class="match-venue">National Stadium, Freetown</div>
+                        <div class="match-status completed">Full Time</div>
+                    </div>
+                    <div class="match-teams">
+                        <div class="team home-team">
+                            <img src="images/teams/east-end-lions.png" alt="East End Lions" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                            <div class="team-placeholder" style="display:none">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <span class="team-name">East End Lions</span>
+                        </div>
+                        <div class="score-section">
+                            <span class="score">2 - 1</span>
+                        </div>
+                        <div class="team away-team">
+                            <img src="images/teams/johansen.png" alt="Johansen" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                            <div class="team-placeholder" style="display:none">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <span class="team-name">Johansen</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="match-result">
+                    <div class="match-date-info">
+                        <div class="match-date">March 5, 2025</div>
+                        <div class="match-venue">Bo Stadium, Bo</div>
+                        <div class="match-status completed">Full Time</div>
+                    </div>
+                    <div class="match-teams">
+                        <div class="team home-team">
+                            <img src="images/teams/bo-rangers.png" alt="Bo Rangers" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                            <div class="team-placeholder" style="display:none">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <span class="team-name">Bo Rangers</span>
+                        </div>
+                        <div class="score-section">
+                            <span class="score">3 - 0</span>
+                        </div>
+                        <div class="team away-team">
+                            <img src="images/teams/east-end-lions.png" alt="East End Lions" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                            <div class="team-placeholder" style="display:none">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <span class="team-name">East End Lions</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="match-result">
+                    <div class="match-date-info">
+                        <div class="match-date">February 28, 2025</div>
+                        <div class="match-venue">Makeni Stadium, Makeni</div>
+                        <div class="match-status completed">Full Time</div>
+                    </div>
+                    <div class="match-teams">
+                        <div class="team home-team">
+                            <img src="images/teams/johansen.png" alt="Johansen" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                            <div class="team-placeholder" style="display:none">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <span class="team-name">Johansen</span>
+                        </div>
+                        <div class="score-section">
+                            <span class="score">1 - 1</span>
+                        </div>
+                        <div class="team away-team">
+                            <img src="images/teams/bo-rangers.png" alt="Bo Rangers" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                            <div class="team-placeholder" style="display:none">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <span class="team-name">Bo Rangers</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <i class="fas fa-futbol"></i>
+                    <span>SLFA</span>
+                </div>
+                <p>Sierra Leone Football Association - Developing football excellence since 1967</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="players.html">Players</a></li>
+                    <li><a href="matches.html">Matches</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <div class="contact-info">
+                    <p><i class="fas fa-map-marker-alt"></i> Kingtom, Freetown, Sierra Leone</p>
+                    <p><i class="fas fa-phone"></i> +232 XX XXX XXXX</p>
+                    <p><i class="fas fa-envelope"></i> info@slfa.sl</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Sierra Leone Football Association. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matches - Sierra Leone Football Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <img src="images/LOGO.png" alt="SLFA Logo">
+                    <span>SLFA</span>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="players.html">Players</a></li>
+                    <li><a href="matches.html" class="active">Matches</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header" style="background-image: url('images/image.png');">
+        <div class="container">
+            <h1><i class="fas fa-calendar-alt"></i> Matches</h1>
+            <p>Upcoming fixtures and recent results</p>
+        </div>
+    </section>
+
+    <section class="matches-section">
+        <div class="container">
+            <div class="match-tabs">
+                <button class="tab-btn active" data-tab="upcoming">Upcoming</button>
+                <button class="tab-btn" data-tab="results">Results</button>
+            </div>
+
+            <div class="tab-content active" id="upcoming">
+                <h2 class="section-title">Upcoming Matches</h2>
+                <div class="matches-list">
+                    <div class="match-card upcoming-match">
+                        <div class="match-date">
+                            <i class="far fa-calendar"></i>
+                            <span>Dec 5, 2025</span>
+                            <span class="match-time">15:00</span>
+                        </div>
+                        <div class="match-teams">
+                            <div class="team">
+                                <img src="images/bo-ranger.png" alt="Team 1">
+                                <h3>BO RANGERS</h3>
+                            </div>
+                            <div class="match-vs">
+                                <span>VS</span>
+                            </div>
+                            <div class="team">
+                                <img src="images/eastern-lion.png" alt="Team 2">
+                                <h3>Eastern Lions</h3>
+                            </div>
+                        </div>
+                        <div class="match-venue">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>National Stadium, Freetown</span>
+                        </div>
+                    </div>
+
+                    <div class="match-card upcoming-match">
+                        <div class="match-date">
+                            <i class="far fa-calendar"></i>
+                            <span>Dec 8, 2025</span>
+                            <span class="match-time">17:00</span>
+                        </div>
+                        <div class="match-teams">
+                            <div class="team">
+                                <img src="images/Johansen.png" alt="Team 3">
+                                <h3>Johansen</h3>
+                            </div>
+                            <div class="match-vs">
+                                <span>VS</span>
+                            </div>
+                            <div class="team">
+                                <img src="images/Kallon.png" alt="Team 4">
+                                <h3>Kallon</h3>
+                            </div>
+                        </div>
+                        <div class="match-venue">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Bo Stadium, Bo</span>
+                        </div>
+                    </div>
+
+                    <div class="match-card upcoming-match">
+                        <div class="match-date">
+                            <i class="far fa-calendar"></i>
+                            <span>Dec 12, 2025</span>
+                            <span class="match-time">16:00</span>
+                        </div>
+                        <div class="match-teams">
+                            <div class="team">
+                                <img src="images/Kamboi Eagles.png" alt="Team 5">
+                                <h3>Kamboi Eagles</h3>
+                            </div>
+                            <div class="match-vs">
+                                <span>VS</span>
+                            </div>
+                            <div class="team">
+                                <img src="images/RSLAF FC.png" alt="Team 6">
+                                <h3>RSLAF FC</h3>
+                            </div>
+                        </div>
+                        <div class="match-venue">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Makeni Stadium, Makeni</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="results">
+                <h2 class="section-title">Recent Results</h2>
+                <div class="matches-list">
+                    <div class="match-card result-match">
+                        <div class="match-date">
+                            <i class="far fa-calendar"></i>
+                            <span>Nov 28, 2025</span>
+                        </div>
+                        <div class="match-teams">
+                            <div class="team">
+                                <img src="images/bo-ranger.png" alt="Team 1">
+                                <h3>BO RANGERS</h3>
+                                <span class="score winner">2</span>
+                            </div>
+                            <div class="match-vs">
+                                <span class="final-badge">FT</span>
+                            </div>
+                            <div class="team">
+                                <span class="score">1</span>
+                                <img src="images/eastern-lion.png" alt="Team 2">
+                                <h3>EASTERN LIONS</h3>
+                            </div>
+                        </div>
+                        <div class="match-highlights">
+                            <button class="btn-highlights"><i class="fas fa-play-circle"></i> Highlights</button>
+                        </div>
+                    </div>
+
+                    <div class="match-card result-match">
+                        <div class="match-date">
+                            <i class="far fa-calendar"></i>
+                            <span>Nov 27, 2025</span>
+                        </div>
+                        <div class="match-teams">
+                            <div class="team">
+                                <img src="images/Johansen.png" alt="Team 3">
+                                <h3>JOHANSEN</h3>
+                                <span class="score">3</span>
+                            </div>
+                            <div class="match-vs">
+                                <span class="final-badge">FT</span>
+                            </div>
+                            <div class="team">
+                                <span class="score">3</span>
+                                <img src="images/Kallon.png" alt="Team 4">
+                                <h3>KALLON</h3>
+                            </div>
+                        </div>
+                        <div class="match-highlights">
+                            <button class="btn-highlights"><i class="fas fa-play-circle"></i> Highlights</button>
+                        </div>
+                    </div>
+
+                    <div class="match-card result-match">
+                        <div class="match-date">
+                            <i class="far fa-calendar"></i>
+                            <span>Nov 25, 2025</span>
+                        </div>
+                        <div class="match-teams">
+                            <div class="team">
+                                <img src="images/RSLAF FC.png" alt="Team 5">
+                                <h3>RSLAF</h3>
+                                <span class="score">1</span>
+                            </div>
+                            <div class="match-vs">
+                                <span class="final-badge">FT</span>
+                            </div>
+                            <div class="team">
+                                <span class="score winner">4</span>
+                                <img src="images/Kamboi Eagles.png" alt="Team 6">
+                                <h3>KAMBOI EADLES</h3>
+                            </div>
+                        </div>
+                        <div class="match-highlights">
+                            <button class="btn-highlights"><i class="fas fa-play-circle"></i> Highlights</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-futbol"></i> SLFA</h3>
+                    <p>Sierra Leone Football Agency - Promoting excellence in football.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="players.html">Players</a></li>
+                        <li><a href="matches.html">Matches</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sierra Leone Football Agency. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar"></div>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Players - Sierra Leone Football Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <img src="images/LOGO.png" alt="SLFA Logo">
+                    <span>SLFA</span>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="players.html" class="active">Players</a></li>
+                    <li><a href="matches.html">Matches</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header" style="background-image: url('images/image.png');">
+        <div class="container">
+            <h1><i class="fas fa-users"></i> Players</h1>
+            <p>Meet the stars of Sierra Leone Premier League</p>
+        </div>
+    </section>
+
+    <section class="players-section">
+        <div class="container">
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">All Players</button>
+                <button class="filter-btn" data-filter="forward">Forwards</button>
+                <button class="filter-btn" data-filter="midfielder">Midfielders</button>
+                <button class="filter-btn" data-filter="defender">Defenders</button>
+                <button class="filter-btn" data-filter="goalkeeper">Goalkeepers</button>
+            </div>
+
+            <div class="players-grid">
+                <div class="player-card" data-position="forward">
+                    <div class="player-image">
+                        <img src="images/musa.png" alt="Player 1">
+                        <div class="player-overlay">
+                            <button class="btn-view-profile">View Profile</button>
+                        </div>
+                    </div>
+                    <div class="player-info">
+                        <h3>Musa Tombo</h3>
+                        <p class="player-position"><i class="fas fa-running"></i> Forward</p>
+                        <p class="player-team"><i class="fas fa-shield-alt"></i> Bo Rangers</p>
+                        <div class="player-stats-mini">
+                            <span><i class="fas fa-futbol"></i> 15</span>
+                            <span><i class="fas fa-hands-helping"></i> 8</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="player-card" data-position="midfielder">
+                    <div class="player-image">
+                        <img src="images/kai-kamara.png" alt="Player 2">
+                        <div class="player-overlay">
+                            <button class="btn-view-profile">View Profile</button>
+                        </div>
+                    </div>
+                    <div class="player-info">
+                        <h3>kai-kamara</h3>
+                        <p class="player-position"><i class="fas fa-running"></i> Midfielder</p>
+                        <p class="player-team"><i class="fas fa-shield-alt"></i>Eastern Lions</p>
+                        <div class="player-stats-mini">
+                            <span><i class="fas fa-futbol"></i> 10</span>
+                            <span><i class="fas fa-hands-helping"></i> 12</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="player-card" data-position="defender">
+                    <div class="player-image">
+                        <img src="images/Alhassan-kamara.png" alt="Player 3">
+                        <div class="player-overlay">
+                            <button class="btn-view-profile">View Profile</button>
+                        </div>
+                    </div>
+                    <div class="player-info">
+                        <h3>Alhassan-kamara</h3>
+                        <p class="player-position"><i class="fas fa-user-shield"></i> Defender</p>
+                        <p class="player-team"><i class="fas fa-shield-alt"></i>JOHANSEN</p>
+                        <div class="player-stats-mini">
+                            <span><i class="fas fa-futbol"></i> 3</span>
+                            <span><i class="fas fa-hands-helping"></i> 5</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="player-card" data-position="goalkeeper">
+                    <div class="player-image">
+                        <img src="images/Mohamed-Kamara.png" alt="Player 4">
+                        <div class="player-overlay">
+                            <button class="btn-view-profile">View Profile</button>
+                        </div>
+                    </div>
+                    <div class="player-info">
+                        <h3>Mohamed Kamara</h3>
+                        <p class="player-position"><i class="fas fa-hand-paper"></i> Goalkeeper</p>
+                        <p class="player-team"><i class="fas fa-shield-alt"></i>Kallon
+                        <div class="player-stats-mini">
+                            <span><i class="fas fa-save"></i> 45</span>
+                            <span><i class="fas fa-times-circle"></i> 12</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="player-card" data-position="forward">
+                    <div class="player-image">
+                        <img src="images/Alex-bangura.png" alt="Player 5">
+                        <div class="player-overlay">
+                            <button class="btn-view-profile">View Profile</button>
+                        </div>
+                    </div>
+                    <div class="player-info">
+                        <h3>Alex Bangura</h3>
+                        <p class="player-position"><i class="fas fa-running"></i> Forward</p>
+                        <p class="player-team"><i class="fas fa-shield-alt"></i>Rslaf</p>
+                        <div class="player-stats-mini">
+                            <span><i class="fas fa-futbol"></i> 18</span>
+                            <span><i class="fas fa-hands-helping"></i> 6</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="player-card" data-position="midfielder">
+                    <div class="player-image">
+                        <img src="images/sanpha-kamara.png" alt="Player 6">
+                        <div class="player-overlay">
+                            <button class="btn-view-profile">View Profile</button>
+                        </div>
+                    </div>
+                    <div class="player-info">
+                        <h3>Sanpha Kamara</h3>
+                        <p class="player-position"><i class="fas fa-running"></i> Midfielder</p>
+                        <p class="player-team"><i class="fas fa-shield-alt"></i>Kallon</p>
+                        <div class="player-stats-mini">
+                            <span><i class="fas fa-futbol"></i> 7</span>
+                            <span><i class="fas fa-hands-helping"></i> 15</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="recent-results">
+        <div class="container">
+            <h2 class="section-title">Recent Results</h2>
+            <div class="results-list">
+                <div class="result-card">
+                    <div class="result-team">
+                        <img src="images/bo-ranger.png" alt="Team 1">
+                        <span>BO RANGERS</span>
+                    </div>
+                    <div class="result-score">
+                        <span class="score">2 - 1</span>
+                        <span class="result-date">Nov 28, 2025</span>
+                    </div>
+                    <div class="result-team">
+                        <img src="images/RSLAF FC.png" alt="Team 2">
+                        <span>Rslaf</span>
+                    </div>
+                </div>
+
+                <div class="result-card">
+                    <div class="result-team">
+                        <img src="images/Johansen.png" alt="Team 3">
+                        <span>Johansen</span>
+                    </div>
+                    <div class="result-score">
+                        <span class="score">3 - 3</span>
+                        <span class="result-date">Nov 27, 2025</span>
+                    </div>
+                    <div class="result-team">
+                        <img src="images/Kallon.png" alt="Team 4">
+                        <span>Kallon</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-futbol"></i> SLFA</h3>
+                    <p>Sierra Leone Football Agency - Promoting excellence in football.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="players.html">Players</a></li>
+                        <li><a href="matches.html">Matches</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sierra Leone Football Agency. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar"></div>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
